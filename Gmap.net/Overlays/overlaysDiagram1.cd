@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Gmap.net.Overlays.CircleMarker" Collapsed="true">
+    <Position X="8" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Overlays\CircleMarker.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gmap.net.Overlays.Common" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Overlays\Common.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gmap.net.Overlays.InfoWindow" Collapsed="true">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Overlays\InfoWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gmap.net.Overlays.Marker" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAEAAgAAAAAAAAAAAAAAAAAAEAAEAAAA=</HashCode>
+      <FileName>Overlays\Marker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gmap.net.Overlays.Overlay" Collapsed="true">
+    <Position X="8" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAECAAEAAAAAAAAAACAAAAAAE=</HashCode>
+      <FileName>Overlays\Overlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gmap.net.Overlays.Polygon" Collapsed="true">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Overlays\Polygon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gmap.net.Overlays.Polyline" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Overlays\Polyline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gmap.net.Overlays.Rectangle" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Overlays\Rectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Gmap.net.Overlays.IFillProperties" Collapsed="true">
+    <Position X="1.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Overlays\IFillProperties.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

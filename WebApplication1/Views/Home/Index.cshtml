@@ -1,0 +1,12 @@
+﻿@using WebApplication1.maps
+@section javascript
+{
+    @{
+        var map = new MiladTower().TestMarker();
+        @map.ShowMapForMvc("mapdiv")
+
+    }
+   
+}
+<br/><br/>
+<div id="mapdiv" style="width:600px;height:600px;"></div>
