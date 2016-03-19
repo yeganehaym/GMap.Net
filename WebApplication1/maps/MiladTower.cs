@@ -69,7 +69,7 @@ namespace WebApplication1.maps
             polyline.StrokeWeight = 2;
             map.Polylines.Add(polyline);
 
-            Polygon polygon=new Polygon("poly2");
+            var polygon=new Polygon("poly2");
             polygon.Points.Add(new Location(35.746494844665094, 51.374655961990356));
             polygon.Points.Add(new Location(35.74635552250061, 51.37283205986023));
             polygon.Points.Add(new Location(35.74598109297522, 51.372681856155396));

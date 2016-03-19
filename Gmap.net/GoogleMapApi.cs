@@ -56,9 +56,9 @@ namespace Gmap.net
             return MvcHtmlString.Create(Jsfile());
         }
 
-        public MvcHtmlString GiveJustJs(string divName)
+        public string GiveJustJs(string divName)
         {
-            return MvcHtmlString.Create(CreateMap(divName));
+            return CreateMap(divName);
         }
 
         /// <summary>

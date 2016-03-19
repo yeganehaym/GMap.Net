@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApplication1.maps;
 
 namespace WebApplication1.Controllers
 {
@@ -15,9 +16,8 @@ namespace WebApplication1.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
+            var output = new MiladTower().TestMarker().GiveJustJs("mapdiv").ToString();
+            return Content(output);
         }
 
         public ActionResult Contact()
