@@ -2,7 +2,6 @@
 using Gmap.net;
 using Gmap.net.Enums;
 using Gmap.net.Overlays;
-using Rectangle = Gmap.net.Overlays.Rectangle;
 
 namespace WebApplication1.maps
 {
@@ -54,7 +53,7 @@ namespace WebApplication1.maps
             circle.StrokeWeight = 3;
             map.Circles.Add(circle);
 
-            Rectangle rect=new Rectangle("rect1");
+            Rect rect=new Rect("rect1");
             rect.FillColor = Color.Black;
             rect.FillOpacity = 0.4f;
             rect.Points.Add(new Location(35.74728723483808, 51.37550354003906));

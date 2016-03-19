@@ -84,6 +84,7 @@
     <Compile Include="Enums\ZoomStyle.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Overlays\CircleMarker.cs" />
+    <Compile Include="Overlays\Rect.cs" />
     <Compile Include="Types\CommonOptions.cs" />
     <Compile Include="const.cs" />
     <Compile Include="GoogleMapApi.cs" />
